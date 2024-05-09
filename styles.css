@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
 *,
 *::before,
 *::after {
@@ -8,10 +10,19 @@
 body {
     display: flex;
     flex-direction: column;
+    font-family: roboto, sans-serif;
 }
 
+/* ------------------ header ------------------*/
+
 header {
-    padding: 0 300px;
+    padding: 0 200px;
+}
+
+.header-container {
+    display: flex;
+    margin-left: auto;
+    padding: 60px 0;
 }
 
 header,
@@ -21,7 +32,7 @@ header,
 
 #logo-text {
     color: #F9FAF8;
-    font-size: 18px;
+    font-size: 24px;
     font-weight: 700;
 }
 
@@ -31,11 +42,12 @@ a {
 
 .links {
     display: flex;
-    gap: 18px
+    gap: 18px;
+    margin-left: auto;
 }
 
 a,
-.header>p {
+.header-text>p {
     color: #E5E7EB;
     font-size: 18px;
 }
@@ -46,10 +58,10 @@ h1 {
 }
 
 .top-nav {
-    padding: 10px;
+    padding-top: 10px;
 }
 
 nav {
     display: flex;
-    justify-content: space-between;
+    /* justify-content: space-between; */
 }
