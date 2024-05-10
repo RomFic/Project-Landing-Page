@@ -89,6 +89,9 @@ h1 {
     padding-top: 10px;
 }
 
+
+/* ------------------ button ------------------*/
+
 #button-1 {
     color: white;
     border: none;
@@ -96,4 +99,19 @@ h1 {
     background-color: #3882F8;
     padding: 0.3em 1.2em;
     margin: 5px 0;
+
+}
+
+#button-2 {
+    color: white;
+    border: 2px solid white;
+    ;
+    background-color: #3882F8;
+    border-radius: 5px;
+    padding: 0.3em 1.8em;
+}
+
+#button-1:hover,
+#button-2:hover {
+    background-color: #5691f0;
 }
