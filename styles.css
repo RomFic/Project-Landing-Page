@@ -17,12 +17,31 @@ body {
 
 header {
     padding: 0 200px;
+    display: flex;
+    flex-direction: column;
 }
+
 
 .header-container {
     display: flex;
-    margin-left: auto;
-    padding: 60px 0;
+    flex-direction: column;
+    justify-content: space-between;
+    align-self: center;
+    min-width: 627px;
+}
+
+.header-top {
+    display: flex;
+    padding: 1em 0;
+}
+
+.header-bottom {
+    display: flex;
+    padding: 4em 0;
+    gap: 30px;
+    justify-content: center;
+    max-width: 812px;
+
 }
 
 header,
@@ -46,6 +65,14 @@ a {
     margin-left: auto;
 }
 
+.header-text {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-basis: 600px;
+}
+
 a,
 .header-text>p {
     color: #E5E7EB;
@@ -55,13 +82,18 @@ a,
 h1 {
     color: #F9FAF8;
     font-size: 48px;
+
 }
 
 .top-nav {
     padding-top: 10px;
 }
 
-nav {
-    display: flex;
-    /* justify-content: space-between; */
+#button-1 {
+    color: white;
+    border: none;
+    border-radius: 5px;
+    background-color: #3882F8;
+    padding: 0.3em 1.2em;
+    margin: 5px 0;
 }
