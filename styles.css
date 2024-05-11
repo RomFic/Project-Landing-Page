@@ -13,6 +13,7 @@ body {
     font-family: roboto, sans-serif;
 }
 
+
 /* ------------------ header ------------------*/
 
 header {
@@ -30,6 +31,14 @@ header {
     min-width: 627px;
 }
 
+.header-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-basis: auto;
+    align-items: flex-start;
+}
+
 .header-top {
     display: flex;
     padding: 1em 0;
@@ -41,7 +50,6 @@ header {
     gap: 30px;
     justify-content: center;
     max-width: 812px;
-
 }
 
 header,
@@ -67,13 +75,12 @@ a {
 a,
 .header-text>p {
     color: #E5E7EB;
-    font-size: 18px;
+    font-size: 16px;
 }
 
 h1 {
     color: #F9FAF8;
     font-size: 48px;
-
 }
 
 .top-nav {
@@ -105,4 +112,44 @@ h1 {
 #button-1:hover,
 #button-2:hover {
     background-color: #5691f0;
+}
+
+
+/* ------------------ main ------------------*/
+
+h2 {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+    text-align: center;
+    margin: 28px 0;
+}
+
+.images {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 60px;
+    margin-bottom: 60px;
+
+}
+
+.image>img {
+    width: 140px;
+    height: 140px;
+    border: 3px solid #5691f0;
+    border-radius: 15px;
+}
+
+.image {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.image>p {
+    font-size: 13px;
+    width: 120px;
+    margin-top: 5px;
 }
