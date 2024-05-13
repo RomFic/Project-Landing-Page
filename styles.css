@@ -93,7 +93,7 @@ h1 {
     color: white;
     border: none;
     border-radius: 5px;
-    background-color: #3882F8;
+    background-color: #3882f6;
     padding: 0.3em 1.2em;
     margin: 5px 0;
 
@@ -103,7 +103,7 @@ h1 {
     color: white;
     border: 2px solid white;
     ;
-    background-color: #3882F8;
+    background-color: #3882f6;
     border-radius: 5px;
     padding: 0.3em 1.8em;
 }
@@ -187,4 +187,36 @@ h2 {
     margin-top: auto;
     font-weight: bold;
     font-size: 18px;
+}
+
+
+/* ------------------ sign-up ------------------*/
+
+.signup-container {
+    display: flex;
+    justify-content: center;
+}
+
+.signup {
+    background-color: #3882f6;
+    border-radius: 7px;
+    padding: 30px 50px;
+    margin: 70px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 200px;
+    justify-content: space-between;
+    flex-basis: 60%;
+    min-width: 500px;
+
+}
+
+#button-2 {
+    flex-shrink: 0;
+    align-items: center;
+}
+
+.signup-text {
+    color: #F9FAF8;
 }
