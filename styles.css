@@ -200,7 +200,7 @@ h2 {
 .signup {
     background-color: #3882f6;
     border-radius: 7px;
-    padding: 30px 50px;
+    padding: 30px 70px;
     margin: 70px;
     display: flex;
     flex-direction: row;
@@ -219,4 +219,13 @@ h2 {
 
 .signup-text {
     color: #F9FAF8;
+}
+
+/* ------------------ footer ------------------*/
+
+#footer-bottom {
+    color: #E5E7EB;
+    text-align: center;
+    font-size: 14px;
+    padding: 30px 0;
 }
