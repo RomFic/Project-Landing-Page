@@ -3,32 +3,38 @@
 *,
 *::before,
 *::after {
+    box-sizing: border-box;
+}
+
+* {
     margin: 0;
     padding: 0;
 }
 
 body {
-    display: flex;
-    flex-direction: column;
-    font-family: roboto, sans-serif;
+    font-family: "roboto", sans-serif;
 }
 
 
 /* ------------------ header ------------------*/
 
 header {
-    padding: 0 200px;
     display: flex;
     flex-direction: column;
 }
 
 
 .header-container {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
     align-self: center;
     min-width: 627px;
+}
+
+.header-bottom {
+    display: flex;
+    padding: 4em 0;
+    gap: 30px;
+    justify-content: center;
+    max-width: 812px;
 }
 
 .header-text {
@@ -43,13 +49,7 @@ header {
     padding: 1em 0;
 }
 
-.header-bottom {
-    display: flex;
-    padding: 4em 0;
-    gap: 30px;
-    justify-content: center;
-    max-width: 812px;
-}
+
 
 header,
 #footer-bottom {
@@ -134,18 +134,18 @@ h2 {
 
 }
 
-.image img {
-    width: 140px;
-    height: 140px;
-    border: 3px solid #5691f0;
-    border-radius: 15px;
-}
-
 .image {
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
+}
+
+.image img {
+    width: 140px;
+    height: 140px;
+    border: 3px solid #5691f0;
+    border-radius: 15px;
 }
 
 .image p {
